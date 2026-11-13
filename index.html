@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>ASDBuy spreadsheet – Kategorien, QC-Fotos und Versand</title>
+<meta name="description" content="Das ASDBuy spreadsheet auf Deutsch: Schuhe, Mode und Accessoires im HipoBuyFind-Katalog entdecken, Produktlinks und QC-Fotos prüfen und Versandkosten einordnen.">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#302235">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="ASDBuy spreadsheet – Kategorien, QC-Fotos und Versand">
+<meta property="og:description" content="Zehn Kategorien im HipoBuyFind-Katalog und ein deutscher Ratgeber für Produktlinks, Größen, QC-Fotos und Paketversand.">
+<meta property="og:image" content="https://static.ftshp.digital/img/p/1/6/9/6/9/9/169699-full_product.jpg">
+<!-- Redaktionsgrundlage: zehn organische Bing-Treffer auf Seite 1, verteilt auf acht Domains. Ausgewertet wurden die sichtbaren Titel und Beschreibungen. Schwerpunkte: ASDBuy Produktlinks, ASDBuy QC-Fotos, ASDBuy Größenvergleich und ASDBuy Versand nach Deutschland. -->
+<!-- Suchphrasen für die Redaktion: Weidian-Produktlink prüfen | Taobao-Varianten vergleichen | Mindestbestellmenge bei 1688 prüfen | Artikelnummer erneut suchen | Schuhgröße vor Bestellung prüfen | Sneaker-Innenlänge in Zentimetern | Brustweite beim Hoodie messen | Ärmellänge beim Hoodie vergleichen | Rückenlänge bei Oberteilen messen | Bundweite bei Hosen prüfen | Innenbeinlänge vergleichen | Kopfumfang für Caps messen | Verschlussart einer Cap prüfen | Kettenlänge vergleichen | Schmuckverschluss im Detail prüfen | QC-Fotos mit Produktbildern vergleichen | Etiketten auf Lagerfotos prüfen | Stückzahl auf QC-Fotos abgleichen | Inlandsversand separat berechnen | Paketmaße nach dem Verpacken prüfen | Volumengewicht beim Versand vergleichen | Versand ohne Schuhkarton kalkulieren | Kosten pro Artikel im Sammelpaket | Versandkosten nach Deutschland vergleichen. -->
+<style>
+:root{color-scheme:light;--ink:#302235;--muted:#605366;--paper:#f6f0f5;--line:#ddd0dc;--accent:#d8f0af}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:1rem/1.6 system-ui,sans-serif}
+.wrap{width:min(72rem,calc(100% - 2rem));margin-inline:auto}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid #9854ae;outline-offset:4px}
+header{padding:1rem 0;border-bottom:1px solid var(--line)}
+header .wrap{display:flex;justify-content:space-between;align-items:center;gap:1rem;flex-wrap:wrap}
+.brand{font-weight:800;text-decoration:none}
+main{padding-block:1.25rem 3rem}
+h1,h2,h3{line-height:1.13;margin:0 0 .6rem}
+h1{font-size:clamp(2.2rem,6vw,4.7rem);letter-spacing:-.055em;overflow-wrap:anywhere}
+h2{font-size:clamp(1.5rem,4vw,2.15rem);letter-spacing:-.035em}
+p{margin:.45rem 0 .75rem}
+.hero{display:grid;grid-template-columns:1.25fr .75fr;background:var(--ink);color:#fff;border-radius:1.5rem;overflow:hidden}
+.intro{padding:clamp(1.35rem,4vw,3.25rem);align-self:center}
+.intro p{max-width:53ch;color:#f0e5f1}
+.cta{display:inline-block;margin-top:.65rem;padding:.7rem 1rem;border-radius:.65rem;background:var(--accent);color:var(--ink);font-weight:750;text-decoration:none}
+.cta:hover{background:#edffd2}
+figure{margin:0}
+.hero figure{background:#fff;color:var(--ink);display:flex;flex-direction:column;justify-content:center}
+img{display:block;width:100%;height:auto}
+.hero img{aspect-ratio:4/3;object-fit:contain}
+figcaption{padding:.55rem .8rem;font-size:.875rem}
+section,nav{margin-top:2rem}
+.categories{list-style:none;padding:0;margin:.8rem 0 0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,11rem),1fr));gap:.55rem}
+.categories a{display:flex;align-items:center;justify-content:space-between;gap:.6rem;height:100%;min-height:3rem;padding:.6rem .8rem;background:white;border:1px solid var(--line);border-radius:.65rem;font-weight:650;text-decoration:none}
+.categories a:hover{background:var(--accent)}
+.gallery,.guides{display:grid;gap:.75rem}
+.gallery{grid-template-columns:repeat(auto-fit,minmax(min(100%,13rem),1fr))}
+.guides{grid-template-columns:repeat(auto-fit,minmax(min(100%,17rem),1fr))}
+.gallery figure,article,.faq{background:white;border:1px solid var(--line);border-radius:.9rem;overflow:hidden}
+.gallery img{aspect-ratio:4/3;object-fit:contain;background:#fbfbfb}
+article{padding:1rem 1.1rem}
+article ul{padding-left:1.15rem;margin:.55rem 0 0}
+article li+li{margin-top:.35rem}
+details{padding:.7rem 1rem}
+details+details{border-top:1px solid var(--line)}
+summary{cursor:pointer;font-weight:700;padding:.3rem 0}
+.note,footer{color:var(--muted)}
+footer{border-top:1px solid var(--line);padding:1rem 0 1.5rem}
+@media(max-width:42rem){.hero{grid-template-columns:1fr}.hero img{max-height:16rem}}
+</style>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"WebPage","name":"ASDBuy spreadsheet – Kategorien, QC-Fotos und Versand","inLanguage":"de","description":"Das ASDBuy spreadsheet auf Deutsch: Schuhe, Mode und Accessoires im HipoBuyFind-Katalog entdecken, Produktlinks und QC-Fotos prüfen und Versandkosten einordnen."},
+    {"@type":"FAQPage","inLanguage":"de","mainEntity":[
+      {"@type":"Question","name":"Was ist ein ASDBuy spreadsheet?","acceptedAnswer":{"@type":"Answer","text":"Ein ASDBuy spreadsheet ist eine Übersicht, die Produktlinks nach Kategorien sammelt. Je nach Liste stehen auch Größen, Varianten oder Hinweise zu Prüffotos dabei. Die Kategorien auf dieser Seite führen zum Katalog von HipoBuyFind."}},
+      {"@type":"Question","name":"Welche Maße helfen beim Größenvergleich?","acceptedAnswer":{"@type":"Answer","text":"Bei Schuhen hilft die Innenlänge in Zentimetern. Bei Oberteilen sind Brustweite und Rückenlänge hilfreich, bei Hosen Bundweite und Innenbeinlänge. Vergleiche jeweils dieselbe Messmethode."}},
+      {"@type":"Question","name":"Können QC-Fotos die Echtheit belegen?","acceptedAnswer":{"@type":"Answer","text":"Nein. QC-Fotos zeigen sichtbare Merkmale wie Farbe, Nähte und Etiketten. Für die Echtheit eines Markenartikels sind nachvollziehbare Herkunftsnachweise oder eine unabhängige Prüfung aussagekräftiger."}},
+      {"@type":"Question","name":"Wie vergleiche ich die Versandkosten nach Deutschland?","acceptedAnswer":{"@type":"Answer","text":"Vergleiche Angebote mit derselben Zielpostleitzahl, denselben Paketmaßen und demselben Gewicht. Rechne den Warenpreis, den Versand und gegebenenfalls weitere Kosten bis zur Zustellung zusammen."}}
+    ]}
+  ]
+}
+</script>
+<link rel="canonical" href="https://kakobuyfinds.github.io/rutsp/">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <strong>Einkaufsratgeber</strong>
+    <a class="brand" href="https://www.hipobuyfind.com">HipoBuyFind-Katalog</a>
+  </div>
+</header>
+<main class="wrap">
+  <div class="hero">
+    <div class="intro">
+      <h1>ASDBuy spreadsheet</h1>
+      <p>Finde die passende Kategorie für Schuhe, Kleidung oder Accessoires. Prüfe anschließend den Produktlink, die Maße und die Kosten bis zur Zustellung. Dieser unabhängige Ratgeber verlinkt auf den Katalog von HipoBuyFind.</p>
+      <a class="cta" href="https://www.hipobuyfind.com">Katalog öffnen</a>
+    </div>
+    <figure>
+      <img src="https://static.ftshp.digital/img/p/1/6/9/6/9/9/169699-full_product.jpg" width="640" height="480" alt="Weißer Nike Air Force 1 mit schwarz-weiß gemustertem Swoosh" loading="eager" fetchpriority="high">
+      <figcaption>Modellbeispiel · Nike Air Force 1</figcaption>
+    </figure>
+  </div>
+  <nav aria-labelledby="kategorien">
+    <h2 id="kategorien">Nach Kategorie stöbern</h2>
+    <ul class="categories">
+      <li><a href="https://hipobuyfind.com/category-911-Shoes.html">Schuhe <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-912-Hoodies%2FSweaters.html">Hoodies &amp; Pullover <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-913-T-Shirts.html">T-Shirts <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-914-Jackets.html">Jacken <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-915-Pants%2FShorts.html">Hosen &amp; Shorts <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-916-Headwear.html">Mützen &amp; Caps <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-917-Sets.html">Sets <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-918-underwear%2Funderpants.html">Unterwäsche <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-919-Jersey.html">Trikots <span aria-hidden="true">↗</span></a></li>
+      <li><a href="https://hipobuyfind.com/category-920-Accessories.html">Accessoires <span aria-hidden="true">↗</span></a></li>
+    </ul>
+  </nav>
+  <section aria-labelledby="ratgeber">
+    <h2 id="ratgeber">Vom Fund zur Kaufentscheidung</h2>
+    <div class="guides">
+      <article>
+        <h3>ASDBuy Produktlinks prüfen</h3>
+        <p>Öffne den Händlerlink aus der Liste und gleiche Modell, Bild und Artikelnummer ab. Speichere die gewählte Farbvariante zusammen mit dem Link.</p>
+        <ul>
+          <li>Weidian-Produktlink öffnen und Verkäuferprofil ansehen.</li>
+          <li>Bei Taobao die Varianten im Angebot vergleichen.</li>
+          <li>Bei 1688 auf die Mindestbestellmenge achten.</li>
+          <li>Bei einem alten Produktlink die Artikelnummer erneut suchen.</li>
+          <li>Verfügbarkeit der gewählten Größe vor der Bestellung prüfen.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>ASDBuy Größenvergleich und QC-Fotos</h3>
+        <p>QC steht für Qualitätskontrolle. Wenn Lagerfotos vorliegen, vergleiche den abgebildeten Artikel mit der bestellten Variante. Für den Größenvergleich sind tatsächliche Maße in Zentimetern besonders hilfreich.</p>
+        <ul>
+          <li>Die Sneaker-Innenlänge mit einem passenden Paar vergleichen.</li>
+          <li>Beim Hoodie Brustweite und Ärmellänge abgleichen.</li>
+          <li>Für Hosen Bundweite und Innenbeinlänge prüfen.</li>
+          <li>Bei Caps den Kopfumfang und die Verschlussart prüfen.</li>
+          <li>Für Schmuck Kettenlänge und Verschluss im Detail ansehen.</li>
+          <li>Auf Lagerfotos Farbe, Etiketten, Nähte und die Stückzahl abgleichen.</li>
+        </ul>
+      </article>
+      <article>
+        <h3>ASDBuy Versand nach Deutschland planen</h3>
+        <p>Vergleiche Versandangebote für dieselbe Postleitzahl. Erfrage für Österreich oder die Schweiz einen eigenen Kostenvoranschlag für das jeweilige Ziel.</p>
+        <ul>
+          <li>Warenpreis und Inlandsversand getrennt notieren.</li>
+          <li>Paketmaße nach dem Verpacken erfragen.</li>
+          <li>Tatsächliches Gewicht und Volumengewicht vergleichen.</li>
+          <li>Versandoptionen mit und ohne Schuhkarton kalkulieren.</li>
+          <li>Bei einem Sammelpaket die Kosten pro Artikel ausrechnen.</li>
+          <li>Einfuhrabgaben und mögliche Zustellgebühren für das Zielland prüfen.</li>
+        </ul>
+      </article>
+    </div>
+  </section>
+  <section aria-labelledby="modelle">
+    <h2 id="modelle">Modellbeispiele für Kleidung und Accessoires</h2>
+    <p class="note">Die Fotos zeigen Modellbeispiele. Die verlinkten Kategorien führen zu den aktuellen Katalogeinträgen.</p>
+    <div class="gallery">
+      <figure>
+        <img src="https://media.gucci.com/style/DarkGray_Center_0_0_1200x1200/1758093305/796395_XJHKE_9692_003_100_0000_Light-cotton-jersey-t-shirt-with-embroidery.jpg" width="1200" height="1200" loading="lazy" decoding="async" alt="Weißes Gucci-T-Shirt aus Baumwolljersey mit Stickerei">
+        <figcaption>Gucci · T-Shirt aus Baumwolljersey</figcaption>
+      </figure>
+      <figure>
+        <img src="https://media.gucci.com/style/HEXFBFBFB_South_0_160_640x640/1751298339/838745_3HBC4_2600_001_100_0000_Light.jpg" width="640" height="640" loading="lazy" decoding="async" alt="Beige Gucci-Baseballcap mit GG-Muster">
+        <figcaption>Gucci · Cap aus GG-Canvas</figcaption>
+      </figure>
+      <figure>
+        <img src="https://www.codogirl.com/cdn/shop/products/Louis-Vuitton-Monogram-Keepall-Duffle-Bag-45-Brown-3_b8decf92-f0a1-4fc2-b6f9-d41446c387e9_1200x1200.jpg?v=1649270576&amp;width=600" width="600" height="600" loading="lazy" decoding="async" alt="Braune Louis-Vuitton-Keepall-45-Reisetasche mit Monogramm an einer Schaufensterpuppe">
+        <figcaption>Louis Vuitton · Keepall 45</figcaption>
+      </figure>
+      <figure>
+        <img src="https://baseec-img-mng.akamaized.net/images/item/origin/c03cd4a80f7f4b9bac69af6a63afa0f5.jpg?im=Resize%2Cwidth%3D640%2Ctype%3Dnormal&amp;imformat=generic&amp;q=90" width="640" height="640" loading="lazy" decoding="async" alt="Hermès-Seidentuch Carré 90 mit dem Motiv Attrape tes rêves">
+        <figcaption>Hermès · Seidentuch Carré 90</figcaption>
+      </figure>
+      <figure>
+        <img src="https://assets.christiandior.cn/is/image/diorprod/LOOK_F_25_2_LOOK_805_E12?%24lookDefault_GH-GHC%24=&amp;bfc=on&amp;crop=568%2C0%2C1864%2C2000&amp;hei=640&amp;qlt=85&amp;wid=596" width="596" height="640" loading="lazy" decoding="async" alt="Goldfarbene Dior-Halskette Petit CD mit Kristallbesatz">
+        <figcaption>Dior · Halskette Petit CD</figcaption>
+      </figure>
+    </div>
+  </section>
+  <section aria-labelledby="faq">
+    <h2 id="faq">Häufige Fragen</h2>
+    <div class="faq">
+      <details open>
+        <summary>Was ist ein ASDBuy spreadsheet?</summary>
+        <p>Ein ASDBuy spreadsheet ist eine Übersicht, die Produktlinks nach Kategorien sammelt. Je nach Liste stehen auch Größen, Varianten oder Hinweise zu Prüffotos dabei. Die Kategorien auf dieser Seite führen zum Katalog von HipoBuyFind.</p>
+      </details>
+      <details>
+        <summary>Welche Maße helfen beim Größenvergleich?</summary>
+        <p>Bei Schuhen hilft die Innenlänge in Zentimetern. Bei Oberteilen sind Brustweite und Rückenlänge hilfreich, bei Hosen Bundweite und Innenbeinlänge. Vergleiche jeweils dieselbe Messmethode.</p>
+      </details>
+      <details>
+        <summary>Können QC-Fotos die Echtheit belegen?</summary>
+        <p>Nein. QC-Fotos zeigen sichtbare Merkmale wie Farbe, Nähte und Etiketten. Für die Echtheit eines Markenartikels sind nachvollziehbare Herkunftsnachweise oder eine unabhängige Prüfung aussagekräftiger.</p>
+      </details>
+      <details>
+        <summary>Wie vergleiche ich die Versandkosten nach Deutschland?</summary>
+        <p>Vergleiche Angebote mit derselben Zielpostleitzahl, denselben Paketmaßen und demselben Gewicht. Rechne den Warenpreis, den Versand und gegebenenfalls weitere Kosten bis zur Zustellung zusammen.</p>
+      </details>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap">Unabhängiger Einkaufsratgeber · <a href="https://www.hipobuyfind.com">Zu HipoBuyFind</a></div>
+</footer>
+</body>
+</html>
